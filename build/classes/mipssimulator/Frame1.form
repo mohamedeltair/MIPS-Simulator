@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                      <Component id="txtMemLoc" min="-2" pref="94" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="btnReset" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Component id="txtMemVal" min="-2" pref="94" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="btnAdd" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFirst" alignment="0" min="-2" pref="94" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="221" max="-2" attributes="0"/>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="btnRun" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane3" min="-2" pref="392" max="-2" attributes="0"/>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="328" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="txtClk" min="-2" pref="104" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="55" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                      <Component id="txtFirst" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Component id="txtMemVal" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="btnAdd" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Component id="txtMemLoc" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="btnReset" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="484" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="461" max="-2" attributes="0"/>
+                              <Component id="btnRun" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane3" min="-2" pref="538" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="538" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txtClk" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="txtFirst">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address of first instruction:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMemVal">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Values to load initially in the memory:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMemLoc">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Program:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAdd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRun">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Run"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRunActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnReset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Free up memory"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="table">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="2" rowCount="86">
+                <Column editable="false" title="Name" type="java.lang.Object">
+                  <Data value="PC"/>
+                  <Data value="PC + 4 in IF/ID"/>
+                  <Data value="Instruction in IF/ID"/>
+                  <Data value="RegDst in ID/EX"/>
+                  <Data value="ALUOp in ID/EX"/>
+                  <Data value="Function code in ID/EX"/>
+                  <Data value="ALUSrc in ID/EX"/>
+                  <Data value="jal in ID/EX"/>
+                  <Data value="beq in ID/EX"/>
+                  <Data value="bne in ID/EX"/>
+                  <Data value="MemWrite in ID/EX"/>
+                  <Data value="MemRead in ID/EX"/>
+                  <Data value="RegWrite in IDEX"/>
+                  <Data value="PC + 4 in ID/EX"/>
+                  <Data value="Read data 1 in ID/EX"/>
+                  <Data value="Read data 2 in ID/EX"/>
+                  <Data value="Sign extended in ID/EX"/>
+                  <Data value="RT reg number in ID/EX"/>
+                  <Data value="RD reg number in ID/EX"/>
+                  <Data value="shamt in ID/EX"/>
+                  <Data value="MemToReg in ID/EX"/>
+                  <Data value="Unsigned in ID/EX"/>
+                  <Data value="RegWrite in EX/MEM"/>
+                  <Data value="MemRead in EX/MEM"/>
+                  <Data value="PC + 4 in EX/MEM"/>
+                  <Data value="MemWrite in EX/MEM"/>
+                  <Data value="ALU result int EX/MEM"/>
+                  <Data value="Read data 2 in EX/MEM"/>
+                  <Data value="WriteRegMux in EX/MEM"/>
+                  <Data value="MemToReg in EX/MEM"/>
+                  <Data value="jal in EX/MEM"/>
+                  <Data value="WriteRegMux2 in EX/MEM"/>
+                  <Data value="RegWrite in MEM/WB"/>
+                  <Data value="Read data in MEM/WB"/>
+                  <Data value="PC + 4 in MEM/WB"/>
+                  <Data value="ALU result in MEM/WB"/>
+                  <Data value="WriteRegMux in MEM/WB"/>
+                  <Data value="MemToReg in MEM/WB"/>
+                  <Data value="jal in MEM/WB"/>
+                  <Data value="WriteRegMux2 in MEM/WB"/>
+                  <Data value="PC + 4"/>
+                  <Data value="Instruction"/>
+                  <Data value="RS register number"/>
+                  <Data value="OP code in ID stage"/>
+                  <Data value="RT register number"/>
+                  <Data value="RD register number"/>
+                  <Data value="Immediate constant"/>
+                  <Data value="Sign extended constant"/>
+                  <Data value="Read data 1"/>
+                  <Data value="Read data 2"/>
+                  <Data value="shamt"/>
+                  <Data value="RegDst"/>
+                  <Data value="jal"/>
+                  <Data value="beq"/>
+                  <Data value="bne"/>
+                  <Data value="MemRead"/>
+                  <Data value="MemToReg"/>
+                  <Data value="ALUOp"/>
+                  <Data value="MemWrite"/>
+                  <Data value="ALUSrc"/>
+                  <Data value="RegWrite"/>
+                  <Data value="Shifted constant"/>
+                  <Data value="Second adder"/>
+                  <Data value="WriteRegMux"/>
+                  <Data value="ALU Control"/>
+                  <Data value="ReadMux"/>
+                  <Data value="ALU result"/>
+                  <Data value="Zero flag"/>
+                  <Data value="PCSrc"/>
+                  <Data value="Read data"/>
+                  <Data value="WBMux"/>
+                  <Data value="26-bit address"/>
+                  <Data value="Concatenated address"/>
+                  <Data value="BranchMux"/>
+                  <Data value="Function code"/>
+                  <Data value="Inverted zero flag"/>
+                  <Data value="Unsigned"/>
+                  <Data value="JumpMux"/>
+                  <Data value="jrMux"/>
+                  <Data value="WriteRegMux2"/>
+                  <Data value="WBMux2"/>
+                  <Data value="jORjal"/>
+                  <Data value="jr"/>
+                  <Data value="Shifted jump address"/>
+                  <Data value="OP code in IF stage"/>
+                  <Data value="PC + 4 first 4 bits"/>
+                </Column>
+                <Column editable="false" title="Value" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="No value"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="table2">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="2" rowCount="32">
+                <Column editable="false" title="Register" type="java.lang.Object">
+                  <Data value="$zero ($0)"/>
+                  <Data value="$at ($1)"/>
+                  <Data value="$v0 ($2)"/>
+                  <Data value="$v1 ($3)"/>
+                  <Data value="$a0 ($4)"/>
+                  <Data value="$a1 ($5)"/>
+                  <Data value="$a2 ($6)"/>
+                  <Data value="$a3 ($7)"/>
+                  <Data value="$t0 ($8)"/>
+                  <Data value="$t1 ($9)"/>
+                  <Data value="$t2 ($10)"/>
+                  <Data value="$t3 ($11)"/>
+                  <Data value="$t4 ($12)"/>
+                  <Data value="$t5 ($13)"/>
+                  <Data value="$t6 ($14)"/>
+                  <Data value="$t7 ($15)"/>
+                  <Data value="$s0 ($16)"/>
+                  <Data value="$s1 ($17)"/>
+                  <Data value="$s2 ($18)"/>
+                  <Data value="$s3 ($19)"/>
+                  <Data value="$s4 ($20)"/>
+                  <Data value="$s5 ($21)"/>
+                  <Data value="$s6 ($22)"/>
+                  <Data value="$s7 ($23)"/>
+                  <Data value="$t8 ($24)"/>
+                  <Data value="$t9 ($25)"/>
+                  <Data value="$k0 ($26)"/>
+                  <Data value="$k1 ($27)"/>
+                  <Data value="$gp ($28)"/>
+                  <Data value="$sp (29)"/>
+                  <Data value="$fp (30)"/>
+                  <Data value="$ra (31)"/>
+                </Column>
+                <Column editable="false" title="Value" type="java.lang.Object">
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="2000000000"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="txtClk">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ok"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Go to clock cycle:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="next clock cycle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="previous clock cycle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View your used memory values"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
